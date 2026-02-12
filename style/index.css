@@ -1,0 +1,47 @@
+h1 {
+    text-align: center;
+}
+h3 {
+    text-align:center;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+    align-items: stretch;
+}
+
+main > section {
+    flex: 1 1 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    background-color: #eeece8;
+    padding: 20px;
+    box-sizing: border-box;
+    min-height: 220px;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(241, 236, 236, 0.08);
+    text-align: center;
+}
+
+.bux {
+    text-align: center;
+}
+
+button {
+    cursor: pointer;
+}
+
